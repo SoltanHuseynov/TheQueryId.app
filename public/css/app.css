@@ -1,0 +1,86 @@
+body{
+  background: url("https://thumbs.gfycat.com/FailingAcidicArmadillo-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+*{
+  background-color: white;
+}
+#app-set{
+  border: none;
+  border-radius:0.5rem; 
+  width: 40rem;
+  height: 30rem;
+}
+form i{
+  position: absolute;
+  margin: 25px 10px;
+  font-size: 20px;
+}
+
+form input[type=text] {
+  border: 0.4px solid;
+  border-radius: 10px;
+  outline: none;
+  text-indent: 30px;
+  padding: 0.50rem;
+  font-size: 17px;
+ 
+}
+.into-form{
+  float: left;
+  transform: translate(45%,70%);
+  
+}
+#into-button{
+   margin: 1.3rem;
+   width: 6rem;
+}
+.toDisplayBox{
+  width: 500px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: auto;
+  margin-top: 30%;
+}
+.Box-text{
+  background-color: #f0f0f0;
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+  font-weight: 500;
+  padding:10px;
+  list-style-type:none;
+}
+.Box-text li{
+  background-color: hsl(38,73%,54%);
+  color: hsl(34,6%,11%);
+  margin:10px 5px;
+  border:none;
+  border-radius: 5px;
+  width: 80px;
+  text-indent: 3px;
+}
+#items-data{
+  font-weight: 600;
+  background-color: #f0f0f0;
+  margin:auto;
+  float:right;
+  transform: translateY(-36px) translateX(-275px);
+}
+#err{
+  text-align: center;
+  border-radius: 5px;
+  background-color: hsl(38,73%,54%);
+  font-weight: 600;
+  transform: translateY(70px);
+  
+}
+#issue{
+  text-align: center;
+  margin: 1.4rem;
+  font-weight: 500;
+  color:#DC0000;
+}

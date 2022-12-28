@@ -1,0 +1,32 @@
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="/css/app.css">
+         
+    </head>
+    <body >
+        <div id="app-set" class="position-absolute top-50 start-50 translate-middle">
+            <form  class="into-form" name="form1"  >
+                <i class="fas fa-server" id="icon-close"></i>
+                <input type="text" name="identity"  placeholder="Entry Id" maxlength="10" id="input-s" required>
+                <input class="btn btn-outline-primary " type="submit" value="Query" id="into-button" >
+            </form>
+            <div class="toDisplayBox">
+                <h1 id="err"><%=error %></h1>
+                <ul class="Box-text" style=<%=none %>>
+                    <% for(z=0;z<items.length;z++){ %>
+                        <li id="items"><%=items[z]%></li>
+                        <li id="items-data"><%=dat[z]%></li>
+                    <% } %>
+                </ul>
+            </div>
+            <p id="issue">The Id Number Length should be 10 </p>
+        </div>
+    </body>
+    <script src="js/script.js" ></script>
+    
+</html> 
