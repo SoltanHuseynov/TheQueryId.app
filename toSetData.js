@@ -8,7 +8,7 @@ fetch(`https://raw.githubusercontent.com/SoltanHuseynov/basic-datas/main/PersonI
         if(err) throw err
     })
 })
-
+//part 2
 function convertJson(){
     const response=fs.readFileSync("Api/db.txt","utf-8")
     let render=response.split("\n")
