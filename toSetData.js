@@ -1,5 +1,5 @@
 const fs=require("fs")
-
+// part 1
 fetch(`https://raw.githubusercontent.com/SoltanHuseynov/basic-datas/main/PersonID.txt`)
 .then((data)=>{
     return data.text()
